@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Archivo Black';
+    background-color: black;
+}
+
+.logo {
+    width: 15%;
+    position: relative;
+    max-width:250px;
+    margin: 25px 0 0 100px;
+    margin-top: -20px;
+
+}
+
+.img {
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    margin-top: -20px;
+  
+}
+
+
+/*Estiização do header do stile*/
+header {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+/* Estilização da DIV do header*/
+.divHeader {
+    position: relative;
+    margin: auto;
+}
+
+/* Estilização do menu do site*/
+nav{
+    position: absolute;
+    top: 11px;
+    right: 0;
+}
+
+nav li{
+display: inline;
+color: white;
+font-size: 25;
+margin-right: 15px;
+}
+
+/*Estilização da sessão sobre nós*/
+.sobre_nos{
+ margin: 0;
+ background-color: rgb(0, 0, 0);
+ text-align: justify;
+ margin-left: 10%;
+ margin-right: 10%;
+ width: 80%;
+
+}
+
+
+h2{
+    clear: left;
+    margin-top: 456px;
+    text-align: center;
+    color: white;
+    font-size: 35;
+}
+
+p{
+    color: white;
+    text-align: center;
+    background: black;
+    margin-top:-10;
+    margin-left: -5%;
+    
+}
+
+.img_sobrenos{
+    width: 15%;
+    margin: 0 40px 0 0;
+    float: left;
+    margin-top: -30px;
+    margin-left: -10%;
+
+}
+
+/*Estilização do nosso estabelecimento*/
+.mapaGeral{
+    background: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+    padding: center;
+}
+
+.mapaGeral p{
+    text-align: center;
+    padding: center;
+    margin-top: -30PX;
+    margin-left: 0%;
+    font-size: 22px;
+    color: white;
+}
+
+.mapaGeral h2{
+    text-align: center;
+    margin-top: -40px;
+}
+
+.mapa {
+    margin-left: 20%;
+}
+
+.mapaGeral iframe{
+    padding: center; 
+    margin-left: 33%;
+}
+
+
+
+
